@@ -957,4 +957,8 @@ p.content__title__inner {
     bottom: 1rem;
   }
 }
+.fs-7 {
+  font-size: 0.875rem;
+}
+
 /* media querys */
