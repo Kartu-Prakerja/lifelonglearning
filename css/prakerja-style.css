@@ -13836,7 +13836,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .social-media a {
   font-size: 1.5rem;
   color: var(--text-secondary);
-  margin-right: 3rem;
+  margin-right: 1rem;
   padding: 0 0.5rem;
 }
 .social-media a:last-child {
@@ -13861,6 +13861,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.footer-top-section {
+  border-bottom: dashed 1px var(--border-default);
 }
 
 .book-frame img {
