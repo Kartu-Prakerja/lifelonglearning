@@ -38,5 +38,19 @@
         $('.navbar-custom').removeClass('m-menu');
         $('body').removeClass('freeze');
     });
+
+    $(document).ready(function() {
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+    
+        window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '929576246577',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-929576246577',
+            onOrderComplete: exampleCallback
+        });
+    })
     
  })(jQuery);

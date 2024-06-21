@@ -874,6 +874,26 @@ p.content__title__inner {
      object-fit: contain;
 }
 
+.avatar-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--bs-white);
+  border: var(--bs-white);
+}
+.avatar-icon img {
+  width: 70%;
+  height: 70%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .scroll-hint {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

@@ -105,6 +105,19 @@
     }
 }
 
+.avatar-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bs-white);
+    border: var(--bs-white);
+    img {
+        width: 70%;
+        height: 70%;
+        object-fit: fill;
+    }
+}
+
 .scroll-hint{
     display: inline-flex;
     width: 80px;
