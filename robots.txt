@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /dev/
+Disallow: /dev/*
+
+User-agent: *
+Allow: /

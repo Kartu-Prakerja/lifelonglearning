@@ -1,0 +1,156 @@
+.main-hero {
+  min-height: 99vh;
+  background-image: url("../img/main-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.main-hero::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+}
+.main-hero > .container {
+  position: relative;
+  z-index: 1;
+}
+.main-hero p, .main-hero h1 {
+  color: white;
+}
+
+.avatar {
+  width: 5.5rem !important;
+  height: 5.5rem;
+  border-radius: 3rem;
+  background-color: var(--bg-default);
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 5.5rem;
+          flex: 0 0 5.5rem;
+  overflow: hidden;
+  border: solid 1px var(--border-default);
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.list-custom {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.list-custom li {
+  border: solid 1px var(--border-default);
+  margin-top: -1px;
+}
+.list-custom li a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  padding: 1rem;
+  display: block;
+}
+.list-custom li a:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}
+
+.list-agenda {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.list-agenda-item {
+  border-bottom: dashed 1px var(--border-default);
+}
+.list-agenda-item:hover {
+  background-color: var(--bg-default);
+}
+
+.bg-odd {
+  background-color: var(--bg-default);
+}
+
+.card-partner {
+  padding: 1rem;
+  background-color: white;
+}
+
+.img-partner {
+  width: 7rem;
+  height: 7rem;
+}
+.img-partner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.scroll-hint {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 80px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -webkit-writing-mode: lr-tb;
+      -ms-writing-mode: lr-tb;
+          writing-mode: lr-tb;
+  position: absolute;
+  color: var(--text-disabled);
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  -webkit-animation-name: scroll_animate;
+          animation-name: scroll_animate;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.scroll-hint:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 1px;
+  margin-right: 8px;
+  background: var(--border-default);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@-webkit-keyframes scroll_animate {
+  0% {
+    bottom: 1rem;
+  }
+  50% {
+    bottom: 2rem;
+  }
+  100% {
+    bottom: 1rem;
+  }
+}
+
+@keyframes scroll_animate {
+  0% {
+    bottom: 1rem;
+  }
+  50% {
+    bottom: 2rem;
+  }
+  100% {
+    bottom: 1rem;
+  }
+}
+/* media querys */
