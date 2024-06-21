@@ -94,6 +94,10 @@
     // border: solid 1px var(--border-default);
     padding: 1rem;
     background-color: white;
+
+    img {
+        max-height: 80px;
+    }
 }
 .img-partner{
     height: 7rem;

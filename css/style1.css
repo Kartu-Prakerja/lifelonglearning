@@ -861,10 +861,9 @@ p.content__title__inner {
 .card-partner {
   padding: 1rem;
   background-color: white;
-
-  img {
-    max-height: 80px;
-  }
+}
+.card-partner img {
+  max-height: 80px;
 }
 
 .img-partner {

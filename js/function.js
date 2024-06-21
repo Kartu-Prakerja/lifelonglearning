@@ -1,5 +1,3 @@
-
-
 /** init function */
 (function($){
     // scroll function
@@ -38,7 +36,7 @@
         $('.navbar-custom').removeClass('m-menu');
         $('body').removeClass('freeze');
     });
-
+    
     $(document).ready(function() {
         var exampleCallback = function() {
             console.log('Order complete!');
