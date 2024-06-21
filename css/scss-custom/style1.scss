@@ -2,6 +2,12 @@
 @import "hero";
 @import "revealer";
 
+.text-gradient-hero{
+    background: var(--Gradient-y500-o500, linear-gradient(90deg, #F2BA01 0%, #F5B203 14.29%, #F8A908 28.57%, #FBA00F 42.86%, #FD9817 57.14%, #FE8F1E 71.43%, #FF8624 85.71%, #FF7D2A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .main-hero{
     min-height: 99vh;
     background-image: url('../img/main-bg.webp');
@@ -107,7 +113,7 @@
     -o-transform: rotate(-90deg);
     writing-mode: lr-tb; 
     position: absolute;
-    color: var(--text-disabled);
+    color: white;
     bottom: 2rem;
     left: 0;
     right: 0;
@@ -117,6 +123,7 @@
     animation-name: scroll_animate;
     animation-duration:2s;
     animation-iteration-count: infinite;
+    z-index: 23;
 
     &:before{
         content: '';
@@ -124,7 +131,7 @@
         width: 24px;
         height: 1px;
         margin-right: 8px;
-        background: var(--border-default);
+        background: white;
         margin-top: auto;
         margin-bottom: auto;
     }

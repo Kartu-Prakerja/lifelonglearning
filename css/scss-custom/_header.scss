@@ -5,14 +5,19 @@
     position: absolute;
     z-index: 234;
     transition: 0.3s background-color;
-    background-color: rgba(white, .90);
+    // background-color: rgba(white, .90);
+    /* From https://css.glass */
+    // background: rgba(255, 255, 255, 0.1);
+    // // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    // backdrop-filter: blur(5px);
+    // -webkit-backdrop-filter: blur(5px);
 
 }
 
 .logo{
   height: 32px;
   width: 252px;
-  background-image: url('../img/logo-prakerja-uid.svg');
+  background-image: url('../img/logo-a.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -30,7 +35,7 @@
 
 
     .logo{
-      background-image: url('../img/logo-prakerja-uid.svg');
+      background-image: url('../img/logo-b.svg');
     }
 
     .burger-menu .icon {
@@ -208,7 +213,7 @@
 
     .pdt-header{
       .nav-link{
-        // color: white;
+        color: white;
       }
     }
 
