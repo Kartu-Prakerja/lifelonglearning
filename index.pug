@@ -1,10 +1,15 @@
+//- INDEX LANDING PAGES
+//- start variable
+- var pageActive = ''
+- var baseURL = ''
+- var contentDescription = {}
+- contentDescription.title = "Prakerja x UID"
+- contentDescription.description = "Database Publik"
+
 doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
-    body 
+html(lang="en" page-class="home")
+    include pug/includes/html_head.pug
+    body
         script.
             window.location.replace("https://www.eventbrite.com/e/public-seminar-skills-development-and-lifelong-learning-for-decent-jobs-tickets-929576246577?aff=oddtdtcreator");
         

@@ -1,4 +1,7 @@
 // Style 1
+@import "hero";
+@import "revealer";
+
 .main-hero{
     min-height: 99vh;
     background-image: url('../img/main-bg.webp');

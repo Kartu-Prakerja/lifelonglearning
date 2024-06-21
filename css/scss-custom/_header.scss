@@ -5,13 +5,14 @@
     position: absolute;
     z-index: 234;
     transition: 0.3s background-color;
+    background-color: rgba(white, .90);
 
 }
 
 .logo{
   height: 32px;
   width: 252px;
-  background-image: url('../img/logo-prakerja-sdg-white.svg');
+  background-image: url('../img/logo-prakerja-uid.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -29,7 +30,7 @@
 
 
     .logo{
-      background-image: url('../img/logo-prakerja-sdg-colored.svg');
+      background-image: url('../img/logo-prakerja-uid.svg');
     }
 
     .burger-menu .icon {
@@ -207,7 +208,7 @@
 
     .pdt-header{
       .nav-link{
-        color: white;
+        // color: white;
       }
     }
 
